@@ -26,9 +26,7 @@ pipeline {
                 branch 'master'
             }
             steps {
-                script {
-                    echo whoami
-                    }
+               echo whoami
                 }
             }
             steps {
